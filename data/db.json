@@ -1,0 +1,16 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "category": "informatique",
+            "name": "Surface",
+            "price": 500
+        },
+        {
+            "id": 2,
+            "category": "informatique",
+            "name": "iMac",
+            "price": 800
+        }
+    ]
+}
