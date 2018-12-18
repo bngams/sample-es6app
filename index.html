@@ -41,21 +41,7 @@
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
-                <!-- Simple Textfield -->
-                <form id="product-form">
-                    <div class="mdl-textfield mdl-js-textfield">
-                        <input class="mdl-textfield__input" type="text" id="product-name-input">
-                        <label class="mdl-textfield__label" for="product-name-input">Name...</label>
-                    </div>
-                    <div class="mdl-textfield mdl-js-textfield">
-                        <input class="mdl-textfield__input" type="text" id="product-name-price">
-                        <label class="mdl-textfield__label" for="product-name-price">Price...</label>
-                    </div>
-                    <!-- Colored raised button -->
-                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                        Button
-                    </button>
-                </form>
+                <product-form></product-form>
                 <div id="product-list">
                     <div class="product-card mdl-card mdl-shadow--2dp">
                         <div class="mdl-card__title mdl-card--expand">
@@ -77,7 +63,10 @@
     </div>
 
     <script src="/node_modules/material-design-lite/material.min.js"></script>
-
+    <script src="/node_modules/systemjs/dist/system.min.js"></script>
+    <script src="/node_modules/systemjs/dist/extras/transform.min.js"></script>
+    <script src="/node_modules/systemjs-transform-babel/dist/babel-transform.js"></script>
+    <script>System.import('/app.js');</script>
 </body>
 
 </html>

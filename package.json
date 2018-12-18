@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "material-design-lite": "^1.3.0"
+    "material-design-lite": "^1.3.0",
+    "systemjs": "^2.1.1",
+    "systemjs-transform-babel": "^0.1.0"
   },
   "devDependencies": {
     "json-server": "^0.14.0",
